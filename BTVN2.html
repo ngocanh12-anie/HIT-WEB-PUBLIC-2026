@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THÔNG TIN CÁ NHÂN</title>
+</head>
+<body>
+    <h1>Thông tin cá nhân</h1>
+  <a href="#gioithieu">Giới thiệu</a>
+  <a href="#sothich">Sở thích</a>
+  <a href="#kynang">Kỹ năng</a>
+  <a href="#thoikhoabieu">Thời khóa biểu</a>
+  <a href="#Lienhe">Liên hệ</a>  
+  <hr>
+  <h2 id = "gioithieu">Thông tin cá nhân</h2>
+  <img src="avatar.webp" alt="avatar" width="300" height="300">
+  <p><strong>Họ và tên: </strong>Nguyễn Thị Ngọc Anh</p>
+  <p><strong>Tuổi: </strong>19</p>
+  <p><strong>Trường: </strong>Đại học Công Nghiệp Hà Nội</p>
+  <p><strong>Ngành học: </strong>Hệ thống thông tin</p>
+  <p><strong>Lớp: </strong>HTTT02</p>
+  <p><strong>Email: </strong>ngocanhhnguyen05@gmail.com</p>
+  <p><strong>Số điện thoại: </strong>0823417431</p>
+  <hr>
+  <h2>Giới thiệu bản thân</h2>
+  <p>Xin chào! Tôi hiện là sinh viên của Trường Đại học Công nghiệp Hà Nội. Tôi đang theo học lĩnh vực Công nghệ thông tin vì yêu thích công nghệ và lập trình. Tôi luôn cố gắng học tập và rèn luyện để nâng cao kiến thức cũng như kỹ năng của mình.</p>
+  <p>Sau khi tốt nghiệp, tôi mong muốn trở thành một lập trình viên phần mềm và làm việc tại một công ty công nghệ. Mục tiêu của tôi là không ngừng học hỏi, tích lũy kinh nghiệm và trở thành một người giỏi trong lĩnh vực Công nghệ thông tin.</p>
+  <hr>
+  <h2 id = "sothich">Sở thích</h2>
+  <ul>
+    <li>Nấu ăn</li>
+    <li>Nghe nhạc</li>
+    <li>Đọc truyện</li>
+    <li>Du lịch</li>
+    <li>Lập trình</li>
+    <li>Đọc sách</li>
+    <li>Chơi thể thao</li>
+  </ul>
+  <hr>
+  <h2 id = "kynang">Kỹ năng</h2>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Git</li>
+    <li>C++</li>
+  </ol>
+  <hr>
+  <h2 id = "thoikhoabieu">Thời khóa biểu</h2>
+  <table border = "1">
+    <thead>
+        <tr>
+        <th>Thứ</th>
+        <th>Môn học</th>
+        <th>Phòng học</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Hai</td>
+            <td>Xác suất thống kê</td>
+            <td>201-A10</td>
+        </tr>
+        <tr>
+            <td>Ba</td>
+            <td>Java</td>
+            <td>1304-A1</td>
+        </tr>
+        <tr>
+            <td>Tư</td>
+            <td>Web</td>
+            <td>1301-A1</td>
+        </tr>
+        <tr>
+            <td>Năm</td>
+            <td>Pickleball</td>
+            <td>Sân 2</td>
+        </tr>
+        <tr>
+            <td>Sáu</td>
+            <td>Toán rời rạc</td>
+            <td>403-A11</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3"><strong>Tổng cộng 5 buổi học</strong></td>
+        </tr>
+    </tfoot>
+  </table>
+  <hr>
+  <h2 id = "Lienhe">Form liên hệ</h2>
+  <form>
+    <label for="name">Họ và tên</label><br />
+    <input type="text" name="name" id="name"><br />
+    <label for="email">Email</label><br />
+    <input type="text" name="email" id="email"><br />
+    <label for="pw">Mật khẩu</label><br />
+    <input type="text" name="pw" id="pw"><br />
+    <label >Giới tính</label><br />
+    <input type="radio" name="gioitinh" value="Nam">
+    <label for="nam">Nam</label><br />
+    <input type="radio" name="gioitinh" value="Nu">
+    <label for="nu">Nữ</label><br />
+    <label >Sở thích</label><br />
+    <input type="checkbox" id="hobby1" name="hobby1" value="nghe_nhac" />
+    <label for="hobby1"> Nghe nhạc</label><br />
+    <input type="checkbox" id="hobby2" name="hobby2" value="Doc_truyen" />
+    <label for="hobby2">Đọc truyện</label><br />
+    <input type="checkbox" id="hobby3" name="hobby3" value="Du_lich" />
+    <label for="hobby3">Du lịch</label><br />
+    <input type="checkbox" id="hobby4" name="hobby4" value="Ngu" />
+    <label for="hobby4">Ngủ</label><br />
+    <label for="major">Ngành học</label><br />
+    <select id="major" name="major">
+    <option value="KHMT">Khoa học máy tính</option>
+    <option value="HTTT">Hệ thống thông tin</option>
+    <option value="MMT&TT">Mạng máy tính và truyền thông</option>
+    <option value="KTPM">Kĩ thuật phần mềm</option>
+    </select><br />
+    <label for="message">Giới thiệu bản thân</label><br />
+    <textarea name="message" rows="5" cols="40">
+    </textarea>
+    <button type="button">Gửi</button>
+  </form>
+  <hr>
+  <h2>Liên Hệ</h2>
+  <a href="https://www.facebook.com/share/14jmq4sKpH2/">Facebook</a>
+  <a href="https://github.com/ngocanh12-anie/HIT-WEB-PUBLIC-2026">GitHub</a>
+  <a href="https://mail.google.com/mail/u/0/#inbox">Email</a>
+  <footer >
+    <hr>
+    <p>© Nguyễn Thị Ngọc Anh.</p>
+  </footer>
+</body>
+</html>
