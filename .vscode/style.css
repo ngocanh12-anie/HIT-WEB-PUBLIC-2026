@@ -1,0 +1,55 @@
+/* /* h2{
+    color: black 
+} */
+/* .card{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+.card1{
+    width: 100%;
+    height: 100%; */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain;
+    background-color: blueviolet;
+    border-color: beige;
+    border-width: 2px;
+    border:solid; */
+    /* Bo viền */
+    /* border-radius: 20%;
+    border: 10px solid black;
+    /* Kích thước, thuộc tính, màu */
+}
+/* .card1{
+    text-transform: capitalize;
+    justify-content: center;
+
+} */
+body{
+    display : flex;
+    justify-content : center;
+}
+.card{
+    width : 500px;
+    height : 500px;
+    background-color : yellow;
+    border-radius : 999px;
+    border : 10px solid black;
+}
+.card1{
+p{
+    text-align : center;
+    text-transform : capitalize;
+    text-decoration: line-through;
+    font-size : 90px;
+    font-family :'Times New Roman';
+    font-weight : bold;
+    font-display: swap;
+}
+}
+*{
+    /* reset css: bắt buộc pải có  */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

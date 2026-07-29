@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    font-family: Arial;
+    text-align : center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    width: 350px;
+    background-color: white;
+    border: 2px solid pink;
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin: 50px auto;
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid palevioletred;
+    margin-bottom: auto;
+}
+.name{
+    color: palevioletred;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.job{
+    color: gray;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.infor p{
+    padding: 5px;
+    border-bottom: 2px solid #cccccc;
+    text-align: center;
+}
+.skill{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skill1{
+    border-color: palevioletred;
+    color: palevioletred;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid palevioletred;
+    font-size: 1rem;
+}
+.button{
+    margin-top: 20px;
+}
+.follow{
+    background-color: palevioletred;
+    color: white;
+    margin-right: 10px;
+    border-color: palevioletred;
+    width: 120px;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 2px solid pink;
+}
+.message{
+    background-color: white;
+    color: palevioletred;
+    border-color: palevioletred;
+    width: 120px;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 2px solid pink;
+}
